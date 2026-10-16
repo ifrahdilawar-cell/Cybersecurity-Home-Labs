@@ -28,5 +28,6 @@ This repository documents the setup and configuration of a cybersecurity home la
 Detailed setup procedures and troubleshooting notes are maintained in separate documentation files.
 
 - [VirtualBox Installation and Troubleshooting](<VirtualBox Installation and Troubleshooting].md>)
+- [Kali Linux Configuration](kali-linux.md)
 
 
