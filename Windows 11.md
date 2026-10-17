@@ -15,7 +15,13 @@ This document records how I installed Windows 11 in Oracle VirtualBox as the tar
 
 ### 1. Download the Windows 11 ISO
 
-Downloaded the **Windows 11 (multi-edition ISO for x64 devices)** from Microsoft's [Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+The direct **Download Windows 11 Disk Image (ISO) for x64 devices** option on Microsoft's [Windows 11 download page](https://www.microsoft.com/software-download/windows11) returned an error (`We encountered a problem processing your request`), so I used the **Media Creation Tool** from the same page instead:
+
+<img width="806" height="398" alt="Windows 11 Media Creation Tool" src="https://github.com/user-attachments/assets/42602296-f3e9-44c5-902d-805867280516" />
+ 
+1. Downloaded and ran the Media Creation Tool.
+2. Kept the recommended language and edition.
+3. Chose **ISO file** as the media to create and saved the ISO (about 6 GB).
 
 ---
 
@@ -30,6 +36,8 @@ In VirtualBox, clicked **New** and selected the Windows 11 ISO. I used these set
 | Virtual disk | 60 GB, dynamically allocated |
 
 I used 4 GB of memory because my host has 16 GB, which leaves enough for Kali to run alongside it.
+
+<img width="959" height="505" alt="Winows 11 Virtual Box" src="https://github.com/user-attachments/assets/e9da473b-aa88-45dd-868b-3de37f8674c7" />
 
 ---
 
