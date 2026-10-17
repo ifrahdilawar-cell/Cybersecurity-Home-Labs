@@ -51,7 +51,8 @@ Detailed setup procedures and troubleshooting notes are kept in separate files.
 - [x] Install VirtualBox
 - [x] Install Kali Linux
 - [x] Install Windows 11
-- [ ] Configure an isolated network between Kali and Windows 11
-- [ ] Verify connectivity between the machines
+- [x] Configure an isolated network between Kali and Windows 11
+- [x] Verify connectivity between the machines
+- [x] Prepare the lab: Guest Additions and clean snapshots
 - [ ] Run a first network scan from Kali against Windows 11 and document the results
 - [ ] Review the scan from the defender's side using Windows logs
