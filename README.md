@@ -44,7 +44,8 @@ Detailed setup procedures and troubleshooting notes are kept in separate files.
 | 1 | [VirtualBox Installation](01-VirtualBox-Installation.md) | Complete |
 | 2 | [Kali Linux Installation](02-Kali-Linux-Installation.md) | Complete |
 | 3 | [Windows 11 Installation](03-Windows-11-Installation.md) | Complete |
-| 4 | Lab Networking | In progress |
+| 4 | [Lab Networking](04-Lab-Networking.md) | Complete |
+| 5 | [Guest Additions and Snapshots](05-Lab-Basics-and-Snapshots.md) | Complete |
 
 ## Roadmap
 
