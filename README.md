@@ -29,5 +29,5 @@ Detailed setup procedures and troubleshooting notes are maintained in separate d
 
 - [VirtualBox Installation and Troubleshooting](<VirtualBox Installation and Troubleshooting].md>)
 - [Kali Linux Configuration](Kali-Linux.md)
-
+- [Windows 11 Configuration](virtual-machines/Windows-11.md)
 
