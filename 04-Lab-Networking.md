@@ -34,7 +34,7 @@ ipconfig
 
 Both VMs reported `10.0.2.15`, with `10.0.2.2` as the default gateway. In default NAT mode each VM sits in its own private network, so the same address is reused.
 
-<img width="257" height="95" alt="04-kali-ip-default-nat" src="https://github.com/user-attachments/assets/b91304ab-c98c-40bd-bddd-39c4bd2a77dd" />
+<img width="437" height="209" alt="04-kali-ip-default-nat" src="https://github.com/user-attachments/assets/dd971e6b-06b2-4c5b-80b8-a85659f27ed4" />
 
 *Figure 1: Kali on default NAT with address 10.0.2.15.*
 
@@ -150,7 +150,7 @@ The command returned `Ok.`
 
 *Figure 12: Firewall rule added.*
 
-I then repeated the ping from Kali. It succeeded, with `ttl=[PLACEHOLDER: TTL value from my Kali ping output]` in the replies.
+I then repeated the ping from Kali. It succeeded, with `ttl=128` in the replies.
 
 ```bash
 ping -c 4 10.0.3.4
