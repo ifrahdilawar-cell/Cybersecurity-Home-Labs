@@ -46,6 +46,7 @@ Detailed setup procedures and troubleshooting notes are kept in separate files.
 | 3 | [Windows 11 Installation](03-Windows-11-Installation.md) | Complete |
 | 4 | [Lab Networking](04-Lab-Networking.md) | Complete |
 | 5 | [Guest Additions and Snapshots](05-Lab-Basics-and-Snapshots.md) | Complete |
+| 6 | [Network Scan using Nmap](06-First-Nmap-Scan.md) | Complete |
 
 ## Roadmap
 
@@ -55,4 +56,5 @@ Detailed setup procedures and troubleshooting notes are kept in separate files.
 - [x] Configure an isolated network between Kali and Windows 11
 - [x] Verify connectivity between the machines
 - [x] Prepare the lab: Guest Additions and clean snapshots
+- [x] Run a first network scan from Kali against Windows 11 and document the results
 
