@@ -22,17 +22,19 @@ This repository documents the setup and configuration of a cybersecurity home la
 | Host Operating System | Windows (16 GB RAM) |
 | Attacker Machine | Kali Linux 2026.2 |
 | Target Machine | Windows 11 |
-| Networking | Isolated virtual network (in progress) |
+| Networking | NAT Network "LabNet" (10.0.3.0/24) |
 
-### Planned Lab Layout
+### Lab Layout
 
-```mermaid
-flowchart LR
-    subgraph Host["Windows host running VirtualBox"]
-        K["Kali Linux<br/>(attacker)"]
-        W["Windows 11<br/>(target)"]
-        K <-->|"Isolated virtual network"| W
-    end
+```text
+Host (HP PC, VirtualBox)
+        |
+   NAT Network "LabNet" (10.0.3.0/24)
+        |
+   +----+-----------------+
+   |                      |
+Kali Linux            Windows 11
+10.0.3.3              10.0.3.4
 ```
 
 ## Documentation
